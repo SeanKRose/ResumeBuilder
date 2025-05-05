@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/cv.typ/main/cv.typ.schema.json
 
 personal:
-  name: John Smith L. Doe
-  email: johndoe@example.com
-  phone: (+1) 987 6543 210
+  name: Sean Rose
+  email: sean.rose@uwaterloo.ca
+  phone: (416) 825 - 8565
   url: https://johndoe.com
   location:
     city: New York
@@ -12,8 +12,8 @@ personal:
     country: United States of America
   profiles:
     - network: LinkedIn
-      username: John Doe
-      url: https://linkedin.com/in/johndoe
+      username: Rose-Sean
+      url: https://linkedin.com/in/rose-sean/
     - network: GitHub
       username: johndoe
       url: https://github.com/johndoe
@@ -43,17 +43,19 @@ work:
           - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
 
 education:
-  - institution: Open University
-    url: https://example.com/
-    area: Computer Science
-    studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
+#Master's
+  - institution: University of Waterloo
+    url: 
+    area: Management Science and Engineering
+    studyType: Masters of Applied Science
+    startDate: 2025-09-01
+    endDate: 2027-08-31
+    location: Waterloo, Ontario
     honors:
-      - 4.0 / 4.0 GPA
+      - 94% Average
       - President's List
       - Dean's List
+      - First in Class Award
     courses:
       - Algorithms & Data Structures
       - Applications in Quantitative Finance
@@ -62,17 +64,19 @@ education:
     highlights:
       - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
       - "*Activities*: Debating, Chess, Cricket"
-  - institution: Harvard University
+#Undergrad      
+  - institution: University of Waterloo
     url:
-    area: Computer Science
-    studyType: Bachelor of Science
+    area: Biomedical Engineering
+    studyType: Bachelor of Applied Science
     startDate: 2017-08-01
     endDate: 2021-06-30
     location: City of London, United Kingdom
     honors:
-      - Summa Cum Laude (4.0 GPA)
+      - Summa Cum Laude (94% Average)
       - President's List
       - Dean's List
+      - First in Class Award
     courses:
       - Algorithms & Data Structures
       - Applications in Quantitative Finance
@@ -128,10 +132,10 @@ certificates:
     url: https://example.com
 
 publications:
-  - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
-    publisher: Theoretical and Computational Fluid Dynamics
-    releaseDate: 2020-09-30
-    url: https://example.com
+  - name: "Auxetics in Biomedical Applications: A Review"
+    publisher: Journal of Minerals and Materials Characterization and Engineering
+    releaseDate: 2023-03-27
+    url: https://doi.org/10.4236/jmmce.2023.112003
 
 projects:
   - name: "Job Tailor"
@@ -169,16 +173,13 @@ skills:
 languages:
   - language: English
     fluency: Native speaker
-  - language: German
-    fluency: Native speaker
-  - language: Japanese
-    fluency: Basic proficiency
+  - language: French
+    fluency: Conversational
 
 interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Classical and Original Soundtrack Music
+  - Volleyball
+  - Spikeball
+  - Running
 
 references:
   # You can comment out the entries below if you don't have any references

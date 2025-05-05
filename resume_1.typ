@@ -1,13 +1,14 @@
-#import "/template/cv.typ": *
+#import "/imprecv/cv.typ": *
 
 // Load CV data from YAML
 #let cvdata = yaml("resume_1.yml")
 
 #let uservars = (
-    headingfont: "Crimson Pro", // Set font for headings
-    bodyfont: "Tinos",   // Set font for body
+    headingfont: "Libertinus Serif", // Set font for headings
+    bodyfont: "Libertinus Serif",   // Set font for body
     fontsize: 10pt, // 10pt, 11pt, 12pt
-    linespacing: 6pt,
+    linespacing: 8pt,
+    sectionspacing: 10pt,
     showAddress: false, // true/false Show address in contact info
     showNumber: false,  // true/false Show phone number in contact info
     headingsmallcaps: false
@@ -48,7 +49,7 @@
 // #cvprojects(cvdata)
 #cvawards(cvdata)
 // #cvcertificates(cvdata)
-// #cvpublications(cvdata)
+#cvpublications(cvdata)
 #cvskills(cvdata)
 // #cvreferences(cvdata)
 
